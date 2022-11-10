@@ -10,10 +10,9 @@ export class QRCardComponent implements OnInit {
 
   @Input() header: string = '';
   @Input() image: string = '';
-  @Input() cardClass: string = '';
+  @Input() altImageText: string = '';
 
   constructor() {
-    console.log(this.header);
   }
 
 
