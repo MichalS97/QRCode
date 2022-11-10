@@ -1,0 +1,17 @@
+p-card {
+    width: 22rem;
+    display: flex;
+}
+
+img {
+    border-radius: 10%;
+    padding: 5%;
+}
+
+.centered {
+    text-align: center;
+}
+
+.p-card {
+    border-radius: 5%;
+}

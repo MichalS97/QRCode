@@ -2,15 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CardModule } from 'primeng/card';
+import { QRCardComponent } from './qrcard/qrcard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    QRCardComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CardModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
